@@ -9,7 +9,7 @@ from datetime import datetime, timezone
 
 MAX_TIMEOUT = 4 * 60 * 60
 ALLOWED_BUGS = {"Time-25", "Chart-1", "Lang-1"}
-ALLOWED_MODELS = {"llama3:8b", "qwen2:7b", "mistral:7b"}
+ALLOWED_MODELS = {"llama3.1:8b", "qwen2:7b", "mistral:7b"}
 
 
 def load_config(path: Path) -> dict:

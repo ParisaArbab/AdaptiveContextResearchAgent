@@ -11,3 +11,8 @@ dependencies = []
 dev = ["pytest>=7"]
 [tool.setuptools.packages.find]
 include = ["research_agent*"]
+
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+norecursedirs = [".git", ".venv", "workspaces", "tools", "runs"]
