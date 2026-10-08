@@ -1,0 +1,8 @@
+{
+  "name": "defects4j-time25-smoke",
+  "template": "defects4j_wp1",
+  "bugs": ["Time-25"],
+  "models": ["llama3:8b"],
+  "backend": "ollama",
+  "timeout_seconds": 14400
+}

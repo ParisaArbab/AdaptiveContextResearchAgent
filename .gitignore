@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+.env.*
+!.env.example
+runs/
+workspaces/
+results/
+logs/
+*.log
+*.key
+*.pem
+*.token
+secrets/
